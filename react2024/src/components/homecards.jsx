@@ -1,5 +1,7 @@
+import Card from "./components/card"
 
 const homecards = () => {
+    <Card />
   return (
     <section className="py-4">
     <div className="container-xl lg:container m-auto">
