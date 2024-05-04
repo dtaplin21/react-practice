@@ -6,6 +6,7 @@ const homecards = () => {
     <section className="py-4">
     <div className="container-xl lg:container m-auto">
       <div className="grid grid-cols-1 md:grid-cols-2 gap-4 p-4 rounded-lg">
+        <Card>
         <div className="bg-gray-100 p-6 rounded-lg shadow-md">
           <h2 className="text-2xl font-bold">For Developers</h2>
           <p className="mt-2 mb-4">
@@ -18,8 +19,9 @@ const homecards = () => {
             Browse Jobs
           </a>
         </div>
-        <div className="bg-indigo-100 p-6 rounded-lg shadow-md">
-          <h2 className="text-2xl font-bold">For Employers</h2>
+        </Card>
+        <Card>
+        <h2 className="text-2xl font-bold">For Employers</h2>
           <p className="mt-2 mb-4">
             List your job to find the perfect developer for the role
           </p>
@@ -29,7 +31,7 @@ const homecards = () => {
           >
             Add Job
           </a>
-        </div>
+        </Card>
       </div>
     </div>
   </section>
