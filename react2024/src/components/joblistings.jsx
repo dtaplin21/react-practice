@@ -1,3 +1,5 @@
+import jobs from "../jobs.json"
+
 
 const joblistings = () => {
   return (
@@ -7,6 +9,9 @@ const joblistings = () => {
         Browse Jobs
       </h2>
       <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
+        {jobs.map((job) => 
+
+    )}
        
         <div className="bg-white rounded-xl shadow-md relative">
           <div className="p-4">
