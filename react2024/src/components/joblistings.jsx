@@ -12,7 +12,7 @@ const recentJobs = jobs.slice(0, 3);
         Browse Jobs
       </h2>
       <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
-        {jobs.map((job) => (
+        {recentJobs.map((job) => (
        <JobListing  key={jobs.id} job={job} />
        
    ))}
