@@ -1,8 +1,9 @@
-/* eslint-disable */
+import PropTypes from 'prop-types';
+
 
 import jobs from '../jobs/json'
 
-const JobListing = ({ job }) => {
+function JobListing({ job }) {
   return (
     <div className="bg-white rounded-xl shadow-md relative">
     <div className="p-4">
@@ -35,5 +36,16 @@ const JobListing = ({ job }) => {
   </div>
   )
 }
+
+JobListing.propTypes = {
+  job: PropTypes.shape({
+    type: PropTypes.string.isRequired,
+    title: PropTypes.string.isRequired,
+    description: PropTypes.string.isRequired,
+    salary: PropTypes.string.isRequired,
+    location: PropTypes.string.isRequired,
+    id: PropTypes.number.isRequired,
+  }).isRequired,
+};
 
 export default JobListing
