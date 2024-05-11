@@ -3,7 +3,7 @@
 import jobs from "../jobs.json";
 import JobListing from "./components/joblisting";
 
-const joblistings = () => {
+const JobListings = () => {
 const recentJobs = jobs.slice(0, 3);
 
   return (
@@ -27,4 +27,4 @@ const recentJobs = jobs.slice(0, 3);
   )
 }
 
-export default joblistings
+export default JobListings

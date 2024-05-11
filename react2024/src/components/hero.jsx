@@ -1,6 +1,7 @@
+/* eslint-disable */
 
 
-const hero = (props) => {
+const Hero = (props) => {
   return (
     <section className="bg-indigo-700 py-20 mb-4">
     <div
@@ -21,4 +22,4 @@ const hero = (props) => {
   )
 }
 
-export default hero
+export default Hero

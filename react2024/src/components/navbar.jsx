@@ -1,6 +1,6 @@
 import Logo from '../assets/images/logo.png'
 
-const navbar = () => {
+const Navbar = () => {
   return (
 
     <nav className="bg-indigo-700 border-b border-indigo-500">
@@ -47,4 +47,4 @@ const navbar = () => {
   )
 }
 
-export default navbar
+export default Navbar
