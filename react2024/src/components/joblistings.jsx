@@ -1,6 +1,7 @@
 //elint ignore 
-import jobs from "../jobs.json"
-import JobListing from "./components/joblisting"
+
+import jobs from "../jobs.json";
+import JobListing from "./components/joblisting";
 
 const joblistings = () => {
 const recentJobs = jobs.slice(0, 3);
@@ -13,7 +14,7 @@ const recentJobs = jobs.slice(0, 3);
       </h2>
       <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
         {recentJobs.map((job) => (
-       <JobListing  key={jobs.id} job={job} />
+       <JobListing  key={job.id} job={job} />
        
    ))}
        

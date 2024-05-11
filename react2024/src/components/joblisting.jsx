@@ -1,6 +1,8 @@
+/* eslint-disable */
+
 import jobs from '../jobs/json'
 
-const joblisting = ({ job }) => {
+const JobListing = ({ job }) => {
   return (
     <div className="bg-white rounded-xl shadow-md relative">
     <div className="p-4">
@@ -20,7 +22,7 @@ const joblisting = ({ job }) => {
       <div className="flex flex-col lg:flex-row justify-between mb-4">
         <div className="text-orange-700 mb-3">
           <i className="fa-solid fa-location-dot text-lg"></i>
-          { job.location }
+          { jobs.location }
         </div>
         <a
           href={`/jobs/${jobs.id}`}
@@ -34,4 +36,4 @@ const joblisting = ({ job }) => {
   )
 }
 
-export default joblisting
+export default JobListing
