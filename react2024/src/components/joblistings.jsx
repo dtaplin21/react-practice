@@ -5,7 +5,7 @@ import JobListing from "./components/joblisting";
 
 const JobListings = () => {
 const recentJobs = jobs.slice(0, 3);
-
+<JobListing />
   return (
     <section className="bg-blue-50 px-4 py-10">
     <div className="container-xl lg:container m-auto">

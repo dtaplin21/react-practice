@@ -3,7 +3,7 @@ import PropTypes from 'prop-types';
 
 import jobs from '../jobs/json'
 
-function JobListing({ job }) {
+function JobListing({ job })  {
   return (
     <div className="bg-white rounded-xl shadow-md relative">
     <div className="p-4">
