@@ -3,7 +3,7 @@ import { useState } from "react"
 
 
 import jobs from '../jobs/json'
-
+ 
 function JobListing({ job })  {
 const [showFullDescription, setShowFullDescription] = useState(false);
 
